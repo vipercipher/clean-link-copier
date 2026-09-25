@@ -6,12 +6,12 @@ const status = document.getElementById("status");
 document.getElementById("copy").addEventListener("click", async () => {
   try {
     const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
-    const url = new URL(tab.url);
-
-    if (!url.protocol.startsWith("http")) {
+        if (!tab.url || !tab.url.startsWith("http")) {
       status.textContent = "This page can't be copied.";
       return;
     }
+
+    const url = new URL(tab.url);
 
     const before = url.searchParams.toString();
     TRACKING.forEach(param => url.searchParams.delete(param));
