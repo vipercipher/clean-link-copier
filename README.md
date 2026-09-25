@@ -19,15 +19,15 @@ into this:
 
 **Link with tracking junk** – removes it and copies the clean link:
 
-![Cleaned link](test-cleaned.png)
+![Cleaned link](cleanedandcopied.png)
 
 **Link that's already clean** – copies it as is:
 
-![Already clean](test-already-clean.png)
+![Already clean](alreadycleanedandcopied.png)
 
 **Browser pages like chrome://extensions** – shows a friendly message:
 
-![Blocked page](test-blocked-page.png)
+![Blocked page](pagecantbecopied.png)
 
 ## Install
 1. Download this repo (green **Code** button → **Download ZIP**) and unzip it
