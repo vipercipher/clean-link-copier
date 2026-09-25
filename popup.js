@@ -6,5 +6,5 @@ document.getElementById("copy").addEventListener("click", async () => {
   const url = new URL(tab.url);
   TRACKING.forEach(param => url.searchParams.delete(param));
   await navigator.clipboard.writeText(url.toString());
-  document.getElementById("status").textContent = "Copied clean link!";
+  document.getElementById("status").textContent = "Copied: " + url.toString();
 });
