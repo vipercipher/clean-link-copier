@@ -15,6 +15,20 @@ into this:
 - Shows you the cleaned link before you paste it
 - No data collected. Everything runs in your browser.
 
+## How it works
+
+**Link with tracking junk** – removes it and copies the clean link:
+
+![Cleaned link](test-cleaned.png)
+
+**Link that's already clean** – copies it as is:
+
+![Already clean](test-already-clean.png)
+
+**Browser pages like chrome://extensions** – shows a friendly message:
+
+![Blocked page](test-blocked-page.png)
+
 ## Install
 1. Download this repo (green **Code** button → **Download ZIP**) and unzip it
 2. Go to `chrome://extensions` and turn on **Developer mode**
