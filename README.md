@@ -2,11 +2,11 @@
 
 Copy links without the tracking junk. One click turns this:
 
-`https://example.com/?utm_source=facebook&fbclid=abc123`
+`https://www.google.com/?utm_source=facebook&fbclid=abc123``
 
 into this:
 
-`https://example.com/`
+`https://www.google.com/`
 
 ![Clean Link Copier popup](cc2.png)
 
