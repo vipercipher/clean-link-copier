@@ -8,7 +8,7 @@ into this:
 
 `https://www.google.com/`
 
-![Clean Link Copier popup](cc2.png)
+![Clean Link Copier popup](images/cc2.png)
 
 ## Features
 - Removes common tracking parameters (utm_*, fbclid, gclid and more)
@@ -19,15 +19,15 @@ into this:
 
 **Link with tracking junk** – removes it and copies the clean link:
 
-![Cleaned link](cleanedandcopied.png)
+![Cleaned link](images/cleanedandcopied.png)
 
 **Link that's already clean** – copies it as is:
 
-![Already clean](alreadycleanedandcopied.png)
+![Already clean](images/alreadycleanedandcopied.png)
 
 **Browser pages like chrome://extensions** – shows a friendly message:
 
-![Blocked page](pagecantbecopied.png)
+![Blocked page](images/pagecantbecopied.png)
 
 ## Install
 1. Download this repo (green **Code** button → **Download ZIP**) and unzip it
