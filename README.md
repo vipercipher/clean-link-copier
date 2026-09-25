@@ -2,7 +2,7 @@
 
 Copy links without the tracking junk. One click turns this:
 
-`https://www.google.com/?utm_source=facebook&fbclid=abc123``
+`https://www.google.com/?utm_source=facebook&fbclid=abc123`
 
 into this:
 
