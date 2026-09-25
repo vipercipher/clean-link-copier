@@ -9,6 +9,7 @@ into this:
 `https://www.google.com/`
 
 ![Clean Link Copier popup](cc2.png)
+![Cleaned link result](ccc.png)
 
 ## Features
 - Removes common tracking parameters (utm_*, fbclid, gclid and more)
